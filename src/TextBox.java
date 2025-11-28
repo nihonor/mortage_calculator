@@ -1,4 +1,14 @@
-package PACKAGE_NAME;
+public class TextBox extends UIControl {
+    private String text = "";
 
-public class TextBox {
+    public TextBox() {
+        super(true);
+        System.out.println("TextBOx ");
+    }
+
+    public void setText(String text){
+        this.text = text;
+
+    }
+    public void clear(){text="";}
 }
